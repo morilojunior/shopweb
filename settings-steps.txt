@@ -1,0 +1,13 @@
+STEPS
+
+npm init (To create package.json)
+npm i express
+
+npm i --save-dev typescript
+npm i --save-dev @types/express (these libs called "types" is used to typescript undestand the types from express, node etc.)
+npm i --save-dev @types/node
+npm i --save-dev ts-node (Compile the project when we use typescript and restart the project automatically when some file is changed)
+npm i --save-dev nodemon (Used to monitory changes of project and restart the project automatically)
+
+npx tsc --init (to generate tsconfig.json)
+link used to setting the project https://vidafullstack.com.br/javascript/como-usar-typescript-com-nodejs-e-express/

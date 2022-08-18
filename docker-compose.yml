@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  shopweb:
+    build: .
+    volumes:
+      - .:/app
+    entrypoint: [ "sh", "command.sh" ]
+    ports:
+      - "8080:8080"
+
+networks:
+  default:
+    name: shopweb
+    external: true
